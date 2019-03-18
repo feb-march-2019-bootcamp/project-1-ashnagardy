@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <head>
+<ul>
+    
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <li>  <label id="name" >Name:</label>
+            <input name="name" id="name"  size="50" placeholder="Enter your name" ></li>
+       
+        <br>
+        <li><lable id="email">Email:</lable>
+            <input name="email" id="email" size="50" placeholder="Enter your Email"></li>
+            <br>
+        <li><label id="age">Age:</label>
+        <input type="number" id="age" name="Age" min="1"  size="50" placeholder="Age"></li>
 
+</ul>
+
+    </head>
+    <form> 
+
+        
+<br>
+<br>
+<label id="text">Which option best describes your current role?</label>
+<input type="text" id="text" name="text" size="15" placeholder="Student">
+<datalist id="text">
+    <option>Student</option>
+    <option>Full Time Jop</option>
+    <option>Full time Leaner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+</datalist>
+<br>
+<br>
+
+<label>  How likely is that you would recommend<br> freeCodeCamp to a friend?</label>
+<br>
+<input type="checkbox" name="checkbox" Definitely><label for="checkbox"> Definitely</label>
+<br>
+<input type="checkbox" name="checkbox" Maybe><label for="checkbox"> Maybe</label>
+<br>
+<input type="checkbox" name="checkbox" Not sure><label for="checkbox"> Not sure</label>
+<br>
+<br>
+<label>What do you like most in FCC:<input type="text" id="text" name="text" size="15" placeholder="Select an option">
+    <datalist id="text">
+            <option>Student</option>
+            <option>Full Time Jop</option>
+            <option>Full time Leaner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+        </datalist>
+</label>  
+<br>
+<br>
+<label>Things that should be improved in the future
+        (Check all that apply):</label>
+        <br> <input type="checkbox" name="checkbox" Front-end Projects><label for="checkbox">Front-end Projects</label>
+        <br>
+        <input type="checkbox" name="checkbox" Back-end Projects><label for="checkbox"> Back-end Projects</label>
+        <br>
+        <input type="checkbox" name="checkbox" Data Visualization><label for="checkbox"> Data Visualization</label>
+        <br>
+    </label> <input type="checkbox" name="checkbox" Challenges ><label for="checkbox">Challenges </label>
+    <br>
+    <input type="checkbox" name="checkbox" Open Source Community><label for="checkbox"> Open Source Community</label>
+    <br>
+    <input type="checkbox" name="checkbox" Gitter help rooms><label for="checkbox"> Gitter help rooms</label>
+    <br>
+</label> <input type="checkbox" name="checkbox" Videos><label for="checkbox">Videos</label>
+<br>
+<input type="checkbox" name="checkbox" City Meetups><label for="checkbox">City Meetups</label>
+<br>
+<input type="checkbox" name="checkbox"  Wiki><label for="checkbox"> Wiki</label>
+<br>
+<input type="checkbox" name="checkbox" Forum><label for="checkbox">Forum</label>
+<br>
+<input type="checkbox" name="checkbox"  Additional Courses><label for="checkbox">Additional Courses</label>
+<br>
+<br>
+
+<label>Any Comments or Suggestions?</label>
+<input type="text" id="text" size="50" placeholder="Enter your comment here...">
+<br>
+<br>
+
+<input type="submit" value="Submit">
+  </form>
+  <style>
+      body{
+          background-color:cadetblue
+
+      }
+      
+    
+  
+   </style>
+    
+</body>
+</html>
